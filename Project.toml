@@ -1,0 +1,17 @@
+name = "StructuredLaTeXTables"
+uuid = "30f53172-cbcb-4d67-95c5-0e0e0e5f195c"
+authors = ["Alfonso Landeros <alanderos@ucla.edu>"]
+version = "0.1.0"
+
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+
+[compat]
+julia = "^1"
+DataFrames = ">= 1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
